@@ -22,7 +22,7 @@ class Movie {
     // METHODS
 
     public function setAge($age) {
-        $this->userAge = $userAge;
+        $this->userAge = $age;
     }
 
     public function getDiscount() {
