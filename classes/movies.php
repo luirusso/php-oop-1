@@ -14,9 +14,10 @@ class Movie {
 
     // COSTRUTTORE
 
-    function __construct($title, $genre) {
+    function __construct($title, $genre, $overview) {
         $this->title = $title;
         $this->genre = $genre;
+        $this->overview = $overview;
     }
 
     // METHODS
